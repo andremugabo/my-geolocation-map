@@ -33,7 +33,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <MapView style={styles.map} region={mapRegion}>
+      <MapView style={styles.map} region={mapRegion} zoomEnabled={true}>
         <Marker coordinate={mapRegion} title="Marker" />
       </MapView>
       <Button title="Get Location" onPress={userLocation} />
