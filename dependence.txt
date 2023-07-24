@@ -1,0 +1,2 @@
+npm install react-native-google-places-autocomplete --save
+AIzaSyC6BUDJwedjveLT5n8vCeouK11rM7Aq3ME
